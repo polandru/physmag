@@ -1,0 +1,13 @@
+theme-colors: (
+    "light":      #d7ebd5,
+    "dark":       #302e36,
+    "primary":    #6a0000,
+    "secondary":  #c61214,
+    "info":       #f55c60,
+    "accent1":    #1b7f92,
+    "accent2":    #268469,
+    "accent3":    #6ca687,
+    "success":    #5aa000,
+    "warning":    #ffbe63,
+    "danger":     #f00065,
+);
