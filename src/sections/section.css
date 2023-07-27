@@ -1,0 +1,9 @@
+.section-list{
+    list-style: none;
+}
+
+.section-list a{
+    text-decoration: none;
+    color:rgb(116, 178, 230);
+
+}
