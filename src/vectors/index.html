@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vector Presentation</title>
+
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/black.css">
+
+</head>
+<body>
+    <div class="reveal">
+    <div class="slides"> 
+    <section>
+        <div class="item">What is a vector? <br>
+            A vector is an arrow
+        </div>
+        <img src="arrow.jpg" width="50%" style="float: right;">
+    <audio src="audio/1.1.mp3" data-autoplay></audio>  
+  </section>
+    <section class="item">
+      <audio src="audio/2.1.mp3" data-autoplay></audio>  
+      What are the parts of a vector? 
+
+            <ul>
+                <li> Length (Magnitude)</li>
+                <li>Direction</li>
+            </ul>
+            <em>MHS is <u>8 miles west</u> of Kroger</em>
+            <img src="Kroger_To_MHS.png">
+    </section>
+    <section>
+      <img src="SameDirectionSameMagnitude.png" alt="Smae Direction Same Magnitude Image">
+      <audio src="audio/3.1.mp3" data-autoplay></audio>  
+    </section>
+    
+    <section class="slide3">
+        <h2 style="grid-column: span 2;"> Two ways of describing a vector </h2>
+        <div><img src="Vector_Angle_Magnitude.png"  alt="a"><br> Polar Form
+        </div>
+        <div> <img src="Vector_Components.png" alt="Vector Components"><br>Rectangular Form</div>
+        <audio src="audio/4.1.mp3" data-autoplay></audio>  
+        
+    </section>
+    <section>
+      <img src="Vector_Angle_Magnitude_3x.png" width="75%" alt="Vector">
+      
+      <ul>
+        <li> Magnitude: A</li>
+        <li> Direction: &theta;</li>
+      </ul>
+      Example: New York is 1400 miles away at a direction of 60&deg; N of E. 
+      <audio src="audio/5.1.mp3" data-autoplay></audio>  
+
+    </section>
+    <section style="grid-template-columns: 1fr 1fr 1fr;">
+      <h3 style="grid-column: span 3;"> Adding vectors geometrically </h3>
+      <img src="AddingVectors_Top.svg" style="grid-column: span 3;">
+      <img src="Adding_Vectors_Prob.svg" class="fragment" style="grid-column: span 2;">
+      <img src="Adding_Vectors_Ans.svg"  class="fragment">
+      <audio src="audio/6.1.mp3" data-autoplay></audio>  
+    </section>
+
+    <section>
+      <audio src="audio/7.1.mp3" data-autoplay></audio>  
+      <h3>Multiplying vectors by a number</h3>
+      <img src="Mult_Vect_Pos.svg">
+      <img src="Mult_Vect_Neg.svg">
+    </section>
+    <section><h3>Unit Vectors</h3>
+    <p>$\hat{i}$ - a vector of length 1 in the positive x direction</p>
+    <p>$\hat{j}$ - a vector of length 1 in the positive y direction</p>
+    <p>$\hat{k}$ - a vector of length 1 in the positive z direction</p>
+    <audio src="audio/8.1.mp3" data-autoplay></audio>  
+
+    </section>
+    <section style="grid-template-columns: 1fr 1fr 1fr;gap:10px"><h3 style="grid-column: span 3;">Vector in Rectangular Coordinates</h3>
+    <img src="Vector_Rectangular.svg" style="grid-column: span 3;">
+    <div>$3\hat{i}$</div>
+    <div>$4\hat{j}$</div>
+    <div> $\boldsymbol{a} = 3\boldsymbol{\hat{i}} + 4\boldsymbol{\hat{j}}$</div>
+    <audio src="audio/9.1.mp3" data-autoplay></audio>  
+    <div style="margin-top:20px" class="fragment">$|\boldsymbol{a}| = \sqrt{3^2+4^2} = 5$   <audio src="audio/9.2.mp3" data-autoplay></audio>  </div>
+  
+    <div style="grid-column:span 3;text-align:left" class="fragment">   <audio src="audio/9.3.mp3" data-autoplay></audio>  $-3\boldsymbol{a} = (-3)(3\boldsymbol{\hat{i}}) +  (-3)(4\boldsymbol{j}) = -9\boldsymbol{\hat{i}}  -12\boldsymbol{\hat{j}}$</div>
+   
+  </section>
+    <section><h3 style="grid-column: span 2">Converting to Polar Coordinates</h3>
+    <img style="grid-column: span 2" src="Vector_Angle_Magnitude.png">
+    <div> Magnitude</div>
+    <div> $|\boldsymbol{a}| = \sqrt{3^2+4^2} = 5$ </div>
+    <div>Angle</div>
+    <div> $\theta = \tan^{-1}(4/3) = \cot^{-1}(3/4)$ </div>
+    <audio src="audio/10.1.mp3" data-autoplay></audio>  
+    </section>
+    
+
+    <section style="gap: 50px 0px;"><h3 style="grid-column: span 2;">Converting to Rectangular Coordinates</h3>
+    <div style="grid-column: span 2;"> Let $\boldsymbol{b}$ be a vector with length  $l =10$ and angle $\theta = 42°$</div>
+    <div> x component</div>
+    <div> $l\cos(\theta)\boldsymbol{\hat{i}} = 10\cos(42)\boldsymbol{\hat{i}} \approx 7.43\boldsymbol{\hat{i}} $</div>
+    <div> y component</div>
+    <div> $l\sin(\theta)\boldsymbol{\hat{j}} = 10\sin(42)\boldsymbol{\hat{j}} \approx 6.69\boldsymbol{\hat{j}} $</div>
+    <div style="grid-column: span 2"> $ \boldsymbol{a} \approx 7.43\boldsymbol{\hat{i}} + 6.69\boldsymbol{\hat{j}}$</div>
+    <audio src="audio/11.1.mp3" data-autoplay></audio>  
+    </section>
+    <section> Multiplying Two Vectors
+      <ul style="list-style-type: none;">
+        <li> Dot(Scalar) product $ \boldsymbol{a} \cdot \boldsymbol{b} $</li>
+        <li> Cross(Vector) product $ \boldsymbol{a} \times \boldsymbol{b} $ </li>
+      </ul>
+      <audio src="audio/12.1.mp3" data-autoplay></audio>  
+    </section>
+    <section style="gap: 25px 0px"> <h3 style="grid-column: span 3">Dot Product - Geometry</h3>
+      <div>What is the dot product?</div>
+      <img src="Red_Dot_Blue.svg">
+      <img src="Blue_Dot_Red.svg">
+      <div></div>
+      <div><span style="color: #AD3939">Red</span> $\cdot$ <span style="color: #203DCE">Blue</span> </div>
+      <div><span style="color: #203DCE">Blue</span> $\cdot$ <span style="color: #AD3939">Red</span> </div>
+      <div></div>
+      <div>$|R||B|\cos(\theta)$</div>
+      <div>$|B||R|\cos(\theta)$</div>
+      <div style="grid-column: span 3" class="fragment"> This implies $v \cdot v = |v|^{2} $ . Also, if $ a \perp b $ then $ a \cdot b = 0$ <audio src="audio/13.2.mp3" data-autoplay></audio>   </div>
+      <audio src="audio/13.1.mp3" data-autoplay></audio>  
+    </section>
+
+    <section> <h3>Dot Product - Rectangular Coordinates</h3>
+      <ul style="list-style-type: none;">
+        <li>Let $a = 2\boldsymbol{\hat{i}} + 4\boldsymbol{\hat{j}}$ </li>
+        <li>Let $b = -3\boldsymbol{\hat{i}} + 3\boldsymbol{\hat{j}}$</li>
+        <li>Then  $ a \cdot b = (2\times-3)  + (4\times 3) =  -6 + 12 = 6$</li>
+      </ul>
+      <audio src="audio/14.1.mp3" data-autoplay></audio>  
+    </section>
+
+    </div>
+    </div>  
+    <style>
+        .item{
+            justify-content: left;
+            text-align: left;
+        }
+        .g{
+            grid-template-columns: repeat(2,1fr); 
+            grid-template-rows: 1fr;
+            
+        }
+        .slide3{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .vgap{
+          gap: 0px 25px;
+        }
+    </style>
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/math/math.js"></script>
+    <script>
+    Reveal.initialize({
+        plugins: [ RevealMarkdown, RevealMath.MathJax2]
+    ,display:"grid"});
+    </script>
+</body>
+</html>
